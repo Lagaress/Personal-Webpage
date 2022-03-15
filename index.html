@@ -10,6 +10,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./node_modules/bulma/css/bulma.css" />
     <link rel="stylesheet" type="text/css" href="./node_modules/bulma/css/hello-paralax.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./node_modules/js/script.js"></script>
   </head>
 
@@ -30,20 +31,23 @@
       </div>
     </section>
     
-    <section class="section is-small is-primary has-text-centered">
-        <h1 class="title is-spaced is-size-2-desktop is-size-4-mobile">¡Hola! Soy Jesús</h2>
+    <section class="section is-medium is-primary has-text-centered">
+      <div class="title-caja">
+        <h1 class="title fuente-poppins text-is-medium is-spaced is-size-2-desktop is-size-4-mobile">¡Hola! Soy Jesús Lagares</h2>
+      </div>
     </section>
 
       <div class="container ">
           <div class="box caja-metida">
-            <h2 class="fuente-europa subtitle-tamano">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</h1>
+            <h2 class="fuente-europa subtitle-tamano">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+            </h1>
           </div>
       </div>
 
     <!-- Cards Section -->
     <section class="container has-border-top">
         <div class="proyectos-personales">
-            <h1 class="title" id="project-title">Todos los Proyectos</h2>
+            <h1 class="title fuente-poppins color-black text-is-medium" id="project-title">Todos los Proyectos</h2>
         </div>
         <div class="myBtnContainer">
             <button class="filter-option buttonFocusOnClick button is-outlined is-rounded is-medium" data-filter="*" onclick=filterProjects(event)>Todos</button>
@@ -73,18 +77,18 @@
     <!-- Contact Section -->
     <section class="section call-to-action is-primary has-text-centered">
         <div class="container is-narrow">
-            <div class="box">
+            <div class="box box-black">
                 <div class="columns level">
                     <div class="colum level-item">
-                        <h1 class="title">¿Hablamos?</h1>
+                        <h1 class="title no-uppercase fuente-poppins">¿Hablamos?</h1>
                     </div>
 
-                    <div class="colum level-item">
-                        <p class="fuente-europa">¿Quieres charlar un rato? Yo invito al café</p>
+                    <div class="colum level-item reduced-box">
+                        <p class="fuente-europa color-white">¿Interesad@ en trabajar juntos o mantener una conversación? Deberíamos hablar. Yo invito al café</p>
                     </div>
 
                     <div class="colum level-item ">
-                        <a class="button is-outlined is-rounded is-large" href="google.com">Vamos a ello</a>
+                        <a class="button is-outlined is-rounded is-large color-white" href="google.com">Vamos a ello</a>
                     </div>
                 </div>
             </div>
@@ -93,11 +97,13 @@
 
     <!-- Footer -->
     <footer class="footer is-primary">
-        <div class="content has-text-centered">
-            <p class="fuente-europa">
-            <strong>Jesús Lagares Galán</strong>
-            </p>
+        <div class="social-icons has-text-centered">
+          <a href="#" class="fa fa-instagram" target="_blank"></a>   
+          <a href="#" class="fa fa-linkedin" target="_blank"></a>                 
+          <a href="#" class="fa fa-youtube" target="_blank"></a>          
+          <a href="#" class="fa fa-spotify" target="_blank"></a>              
         </div>
+
         </footer>      
 
 </body>
