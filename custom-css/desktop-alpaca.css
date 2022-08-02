@@ -1,3 +1,8 @@
+a
+{
+    font-family: "europa", sans-serif;     
+}
+
 .custom-navbar
 {
     background-color: #e076dc !important;
@@ -20,8 +25,75 @@
     border-color: white;
 }
 
+.pink-button
+{
+    color: #e076dc !important;  
+    border-color: #e076dc;
+    border-width: 2px;
+    border-radius: 9999px;
+    font-size: 1.55rem;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.pink-button:hover
+{
+    color: white !important; 
+    background-color: #e076dc;
+    border-color: #e076dc;
+}
 
 .custom-margin
 {
     margin: 0.7%;
+}
+
+.subtitle
+{
+    font-weight: 800;
+    color: #e076dc;
+    font-family: "Poppins",sans-serif;
+    text-transform: uppercase; 
+    text-shadow: none;
+    font-size: 3rem;
+    line-height: 1.125;
+    word-break: break-word;
+}
+
+.title-subsection, .video-subsection
+{
+    width: 50%;
+    text-align: center;
+}
+
+.title-video-section
+{
+    display: flex;
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+
+.question-section
+{
+    display: flex;
+    background-color: #e076dc;
+}
+
+.first-image, .question, .second-image
+{
+    width: 33%;
+    text-align: center;
+}
+
+.overview-text
+{
+    color: #151515;
+    font-family: "europa", sans-serif;
+    margin-top:1.5%; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size:19px;
 }
