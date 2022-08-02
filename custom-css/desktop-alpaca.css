@@ -1,0 +1,27 @@
+.custom-navbar
+{
+    background-color: #e076dc !important;
+}
+
+.github-button
+{
+    color: white !important;  
+    border-color: white;
+    border-width: 2px;
+    border-radius: 9999px;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.github-button:hover
+{
+    color: #e076dc !important; 
+    background-color: white;
+    border-color: white;
+}
+
+
+.custom-margin
+{
+    margin: 0.7%;
+}
