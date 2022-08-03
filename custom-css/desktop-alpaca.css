@@ -83,6 +83,13 @@ a
     text-align: center;
 }
 
+.normal-text
+{
+    color: #151515;
+    font-family: "europa", sans-serif;
+    font-size:19px;
+}
+
 .feature-section
 {
     margin-top: 1.6%;
@@ -118,6 +125,13 @@ a
     padding-bottom:1.6%; 
 }
 
+.footer
+{
+    background-color: #e076dc;
+    padding-top:1.6%; 
+    padding-bottom:0.3%; 
+    text-align: center;
+}
 
 .first-image, .question, .second-image
 {
@@ -153,4 +167,44 @@ a
 .color-white
 {
     color: white; 
+}
+
+.is-small
+{
+    font-size: 2rem;
+}
+
+.cta-box
+{
+    background-color: #151515;
+    color: white;
+    border-radius: 11px;    
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 20%), 0 0 0 1px #151515;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 1.5%;
+    padding-bottom: 0.7%;
+}
+.cta-button
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.various-links
+{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.twitter-story,.coffe
+{
+    width: 50%;
+    text-align: center;
+}
+
+.call-to-action
+{
+    display: flex;
 }
