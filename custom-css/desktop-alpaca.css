@@ -61,10 +61,46 @@ a
     word-break: break-word;
 }
 
+.first-feature, .second-feature, .third-feature
+{
+    display: flex;
+}
+
+.second-feature, .third-feature
+{
+    margin-top: 5%;
+}
+
+.feature-text,.feature-media
+{
+    width: 50%;
+    text-align: center;
+}
+
 .title-subsection, .video-subsection
 {
     width: 50%;
     text-align: center;
+}
+
+.feature-section
+{
+    margin-top: 1.6%;
+    margin-bottom: 1.6%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+}
+
+.feature-text-box
+{
+    color: #151515;
+    font-family: "europa", sans-serif;
+    margin-top:1.5%; 
+    font-size:19px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title-video-section
