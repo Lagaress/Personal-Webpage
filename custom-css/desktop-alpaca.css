@@ -50,6 +50,11 @@ a
     margin: 0.7%;
 }
 
+.poppins-font
+{
+    font-family: "Poppins",sans-serif !important; 
+}
+
 .subtitle
 {
     font-weight: 800;
@@ -64,11 +69,24 @@ a
 .first-feature, .second-feature, .third-feature
 {
     display: flex;
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+.promotional-text
+{
+    font-size: 13px !important;
+}
+
+.fa
+{
+    margin-right: 1%;
+    margin-left: 1%;
 }
 
 .second-feature, .third-feature
 {
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .feature-text,.feature-media
@@ -114,15 +132,15 @@ a
 {
     display: flex;
     margin-top: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 1.2%;
 }
 
 .question-section
 {
     display: flex;
     background-color: #e076dc;
-    padding-top:1.6%; 
-    padding-bottom:1.6%; 
+    padding-top:1.2%;
+    padding-bottom: 0.8%; 
 }
 
 .footer
@@ -204,7 +222,61 @@ a
     text-align: center;
 }
 
+.twitter-story-box
+{
+    background-color: #151515;
+    color: white;
+    border-radius: 11px;    
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 20%), 0 0 0 1px #151515;
+    padding: 0.6%;
+    margin-left: 11%;
+    margin-right: 15%;
+}
+
+.is-medium
+{
+    font-size: 20px;
+}
+
+.coffe-box
+{
+    background-color: #151515;
+    color: white;
+    border-radius: 11px;    
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 20%), 0 0 0 1px #151515;
+    margin-right: 9%;
+}
+
+.coffe-text
+{
+    margin-top: 5%;
+}
+
+.fa-coffee
+{
+    margin-left: 4%;
+    margin-right: 4%;
+}
 .call-to-action
 {
     display: flex;
+}
+.hastag-text
+{
+    font-size: 15px; 
+}
+.twitter-text
+{
+    margin-top: 3%;
+}
+
+a[href="https://twitter.com/jesuslagares_/status/1536065613835259906"], a[href="https://www.buymeacoffee.com/jesuslagares"]
+{
+    text-decoration: none;
+    color: white; 
+}
+a[href="https://twitter.com/jesuslagares_/status/1536065613835259906"]:hover,a[href="https://www.buymeacoffee.com/jesuslagares"]:hover
+{
+    text-decoration: none;
+    color: #e076dc; 
 }
